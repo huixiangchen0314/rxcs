@@ -1,0 +1,101 @@
+# ---------- Unity 通用 ----------
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# ---------- 资源与元数据（不要忽略 .meta） ----------
+*.rsp.meta
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# ---------- Unity3D 生成文件 ----------
+*.csproj
+*.sln
+*.unityproj
+*.booproj
+*.svd
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ---------- 操作系统生成文件 ----------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ---------- Visual Studio ----------
+.vs/
+*.sln.docstates
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.dbmdl
+*.jfm
+*.ncrunch*
+*.ncrunchsolution
+# 如果使用 Visual Studio 的 CMake 集成
+CMakeUserPresets.json
+
+# ---------- Visual Studio Code ----------
+.vscode/
+*.code-workspace
+
+# ---------- Emacs ----------
+*~
+\#*\#
+.\#*
+*.elc
+# 某些项目会提交 dir-locals，视情况忽略
+# .dir-locals.el
+
+# ---------- 通用编辑器 / IDE ----------
+.idea/
+*.swp
+*.swo
+
+# ---------- Windows ----------
+# git config core.ignorecase true 可辅助处理
+
+# ---------- 包管理器 ----------
+# 通常只保留 manifest.json 和 packages-lock.json
+# 如需忽略整个 Packages 文件夹可取消下面注释：
+# Packages/
+
+# ---------- 自动生成的资源 ----------
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# ---------- 崩溃报告 ----------
+Crashlytics/
+Crashes/
+
+# ---------- 其他 ----------
+*.bak
+*.orig
+*.log
+/Assets/Lib/Kzre.Nefw.UView.StateMachine/Class1.cs
+
+# 语言中间文件
+FontSourceText_*.csv
+
+# 生成文件
+**/Generated/**/*
+
+# 消息子模块
+proto/
