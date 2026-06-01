@@ -183,7 +183,10 @@ namespace Rxcs
             }
 
             /// <summary> 获取所有已注册的响应式属性名称 </summary>
-            public IEnumerable<string> PropertyNames => _refs.Keys;
+            public IEnumerable<string> GetPropertyNames()
+            {
+                return _refs.Keys;
+            }
         }
 
         // ==================== 自动代理：Reactive<T> ====================
