@@ -154,7 +154,7 @@ namespace Rxcs
         /// 继承此类即可手动注册响应式属性（推荐方式，无动态调用）。
         /// 使用示例：
         /// public class MyModel : ReactiveObject {
-        ///     public ARef<string> Name => Property<string>("Name");
+        ///     public ARef<string> TagTypeName => Property<string>("TagTypeName");
         ///     public ARef<int> Age => Property<int>("Age");
         /// }
         /// </summary>
